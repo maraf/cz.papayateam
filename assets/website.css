@@ -35,7 +35,7 @@ h1, h2, h3, h4, h5 {
   font-size: 16px;
   padding: 6px 0;
   text-align: center;
-  background: url('/file.php?rid=51') repeat-x left top;
+  background: url('../images/h-background.png') repeat-x left top;
 }
 
 p {
@@ -52,7 +52,7 @@ p {
   width: 200px;
   height: 200px;
   float: left;
-  background: url('/file.php?rid=55') no-repeat left top;
+  background: url('../images/Logo small.png') no-repeat left top;
 }
 
 .head .head-center {
@@ -63,13 +63,7 @@ p {
 
 .head .head-center .head-image {
   height: 150px;
-  background: url('/file.php?rid=52') no-repeat left top;
-}
-
-.head .head-center .loading {
-  padding: 15px 0 15px 38px;
-  height: 20px;
-  background: url('/file.php?rid=53') no-repeat 6px 12px;
+  background: url('../images/Head.png') no-repeat left top;
 }
 
 .left {
@@ -154,27 +148,27 @@ hr {
 }
 
 .menu-cover ul li.menu-item.li-1 a {
-  background: url('/file.php?rid=47') no-repeat left top;
+  background: url('../images/home.gif') no-repeat left top;
 }
 
 .menu-cover ul li.menu-item.li-2 a {
-  background: url('/file.php?rid=48') no-repeat left top;
+  background: url('../images/news.gif') no-repeat left top;
 }
 
 .menu-cover ul li.menu-item.li-3 a {
-  background: url('/file.php?rid=45') no-repeat left top;
+  background: url('../images/dido-league.gif') no-repeat left top;
 }
 
 .menu-cover ul li.menu-item.li-4 a {
-  background: url('/file.php?rid=49') no-repeat left top;
+  background: url('../images/players.gif') no-repeat left top;
 }
 
 .menu-cover ul li.menu-item.li-5 a {
-  background: url('/file.php?rid=46') no-repeat left top;
+  background: url('../images/guestbook.gif') no-repeat left top;
 }
 
 .menu-cover ul li.menu-item.li-6 a {
-  background: url('/file.php?rid=50') no-repeat left top;
+  background: url('../images/sponsors.gif') no-repeat left top;
 }
 
 .menu-cover ul li.menu-item a:hover {
