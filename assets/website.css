@@ -1,0 +1,346 @@
+.clear {
+  clear: both;
+}
+
+.counter .col-name {
+  float: left;
+}
+
+.counter .col-value {
+  float: right;
+}
+
+img {
+  border: none;
+}
+
+.clear {
+  clear: both;
+}
+
+.hidden {
+  display: none;
+}
+
+body {
+  font-family: Arial, Verdana, Times;
+  margin: 0;
+  color: white;
+  background: black;
+}
+
+h1, h2, h3, h4, h5 {
+  color: black;
+  margin-top: 0;
+  font-size: 16px;
+  padding: 6px 0;
+  text-align: center;
+  background: url('/file.php?rid=51') repeat-x left top;
+}
+
+p {
+  text-align: justify;
+}
+
+/* -------- DESIGN ----------------- */
+
+.all {
+  width: 900px;
+}
+
+.head .corner {
+  width: 200px;
+  height: 200px;
+  float: left;
+  background: url('/file.php?rid=55') no-repeat left top;
+}
+
+.head .head-center {
+  width: 700px;
+  height: 200px;
+  float: left;
+}
+
+.head .head-center .head-image {
+  height: 150px;
+  background: url('/file.php?rid=52') no-repeat left top;
+}
+
+.head .head-center .loading {
+  padding: 15px 0 15px 38px;
+  height: 20px;
+  background: url('/file.php?rid=53') no-repeat 6px 12px;
+}
+
+.left {
+  width: 200px;
+  float: left;
+  margin: 0 0 20px 0;
+}
+
+.left .counter-cover {
+  margin: 0 25px;
+}
+
+.content {
+  width: 700px;
+  min-height: 500px;
+  _height: 500px;
+  margin: 10px 0 20px 0;
+  float: left;
+}
+
+hr {
+  margin: 10px;
+  height: 5px;
+  background: #FE9834;
+  border: none;
+  color: transparent;
+}
+
+.banners, .gallery-link {
+  margin: 0 25px;
+}
+
+.gallery-link {
+  text-align: center;
+}
+
+.gallery-link a {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.gallery-link a:hover {
+  color: #FE9834;
+}
+
+.copyright {
+  margin: 0 15px;
+}
+
+/* -------------- MENU -------------- */
+
+.menu-cover {
+  width: 150px;
+  margin: 10px 0;
+  padding: 0 25px;
+}
+
+.menu-cover ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.menu-cover ul li.menu-item {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu-cover ul li.menu-item a {
+  float: left;
+  display: block;
+  width: 150px;
+  height: 50px;
+  margin: 0;
+  padding: 0;
+}
+
+.menu-cover ul li.menu-item a span {
+  display: none;
+}
+
+.menu-cover ul li.menu-item.li-1 a {
+  background: url('/file.php?rid=47') no-repeat left top;
+}
+
+.menu-cover ul li.menu-item.li-2 a {
+  background: url('/file.php?rid=48') no-repeat left top;
+}
+
+.menu-cover ul li.menu-item.li-3 a {
+  background: url('/file.php?rid=45') no-repeat left top;
+}
+
+.menu-cover ul li.menu-item.li-4 a {
+  background: url('/file.php?rid=49') no-repeat left top;
+}
+
+.menu-cover ul li.menu-item.li-5 a {
+  background: url('/file.php?rid=46') no-repeat left top;
+}
+
+.menu-cover ul li.menu-item.li-6 a {
+  background: url('/file.php?rid=50') no-repeat left top;
+}
+
+.menu-cover ul li.menu-item a:hover {
+  background-position: 0 -100px;
+}
+
+.menu-cover ul li.menu-item.active-item a {
+  background-position: 0 -50px;
+}
+
+.menu-cover ul li.menu-item.active-item a:hover {
+  background-position: 0 -50px;
+}
+
+.copyright a {
+  color: #AAAAAA;
+  font-size: 10px;
+}
+
+.copyright a:hover {
+  text-decoration: overline;
+}
+
+/* -------------------- Articles ----------------------- */
+
+.article {
+  margin-bottom: 20px;
+}
+
+.article-timestamp {
+  font-size: 90%;
+}
+
+.article-author {
+  float: right;
+}
+
+/* --------------------- Dido -------------------------- */
+
+.text-right {
+  text-align: right;
+}
+
+.dido {
+  font-size: 13px;
+}
+
+.dido .results, .dido .table {
+  width: 50%;
+  float: left;
+}
+
+.dido .results h1, .dido .table h1 {
+  margin-bottom: 2px;
+}
+
+.dido .results .machtes-in-round, .dido .table .table-in {
+  padding: 0 10px;
+}
+
+.dido .results .round, .dido .table .table-in {
+  margin-bottom: 5px;
+}
+
+.dido .results .machtes-in-round table, .dido .table .table-in table {
+  width: 100%;
+}
+
+.first-col {
+  text-align: right;
+}
+
+.results-teams {
+  width: 120px;
+}
+.dido table {
+  border-collapse: collapse;
+}
+
+.dido table th {
+  text-align: left;
+  color: #cccccc;
+  border-bottom: 1px solid #666666;
+}
+
+.round-no strong {
+  display: block;
+  color: #cccccc;
+  border-bottom: 1px solid #666666;
+}
+
+.round {
+  margin: 0 10px 5px;
+}
+
+/* --------------- Players ------------------- */
+
+.players .player {
+  min-height: 25px;
+  font-weight: bold;
+  font-size: 110%;
+  border-bottom: 1px solid #666666;
+}
+
+.players .a-team, .players .b-team {
+  margin: 0 10px 10px 10px;
+  border-top: 1px solid #666666;
+}
+
+.players .player .number, .players .player .name {
+  padding: 5px 10px;
+  float: left;
+}
+
+.players .player .number {
+  width: 20px;
+  text-align: right;
+}
+
+.players .player:hover {
+  cursor: pointer;
+  color: #fe9834;
+  background: #111111;
+}
+
+.player-info {
+  border-bottom: 1px solid #666666;
+}
+
+.player-info .player-details {
+  width: 147px;
+  height: 195px;
+  padding: 10px;
+  float: right;
+}
+
+.player-info .player-details img {
+  width: 147px;
+  height: 195px;
+  border: 2px solid #333333;
+}
+
+.player-info .player-seasons {
+  width: 513px;
+  float: left;
+}
+
+.player-info table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.player-info table th, .player-info table td {
+  padding: 2px 15px;
+}
+
+.player-info table th {
+  text-align: left;
+  background: #333333;
+}
+
+.player-info table td {
+  border-top: 1px solid #333333;
+}
+
+.player-info table tr.summary td {
+  color: #fe9834;
+  border-top: 2px solid #333333;
+}
